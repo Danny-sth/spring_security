@@ -18,6 +18,6 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
                 .withUser(userBuilder.username("elena")
                         .password("elena").roles("HR"))
                 .withUser(userBuilder.username("ivan")
-                        .password("ivan").roles("MANAGER", "HR "));
+                        .password("ivan").roles("MANAGER", "HR"));
     }
 }
